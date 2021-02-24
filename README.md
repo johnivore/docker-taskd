@@ -2,6 +2,10 @@
 
 This is a [Taskwarrior](https://www.taskwarrior.org/) taskd sync server in an Alpine Linux-based container.
 
+* Git repo: <https://gitlab.com/johnivore/docker-taskd>
+* Dockerhub: <https://hub.docker.com/r/johnivore/taskd/>
+
+
 ## Usage
 
 ```bash
