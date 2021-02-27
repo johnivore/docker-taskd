@@ -19,6 +19,7 @@ docker run -d \
 ### Example docker-compose
 
 ```yml
+services:
   taskd:
     image: johnivore/taskd:latest
     container_name: "taskd"
