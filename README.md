@@ -29,6 +29,7 @@ services:
     ports:
       - "53589:53589"
     environment:
+      # used during certificate generation
       - "EXPIRATION_DAYS=365"                 # default: 365
       - "ORGANIZATION=My awesome company"     # default: ""
       - "CN=sync.example.com"                 # default: localhost.localdomain
